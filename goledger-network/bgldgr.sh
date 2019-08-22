@@ -28,7 +28,7 @@
 
 # prepending $PWD/../bin to PATH to ensure we are picking up the correct binaries
 # this may be commented out to resolve installed version of tools if desired
-export PATH=${PWD}/../bin:${PWD}:$PATH
+export PATH=$PATH:/home/ian/go/src/goledger-challenge/fabric-samples/bin
 export FABRIC_CFG_PATH=${PWD}
 export VERBOSE=false
 
